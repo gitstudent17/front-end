@@ -1,0 +1,80 @@
+$body-bg-color: #4a5fad;
+$menu-bg-color: #061859;
+$menu-item-bg-color: #5856AC;
+$menu-item-hover-bg-color: #ddd;
+$footer-bg-color: #061859;
+$footer-text-color: white;
+$textbox-bg-color: #74AFF5;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $body-bg-color;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 0px;
+  background-color: $menu-bg-color;
+}
+
+.menu-item {
+  width: 150px;
+  height: 50px;
+  background-color: $menu-item-bg-color;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  box-shadow: 1px 1px 2px #888888;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  &:hover {
+    background-color: $menu-item-hover-bg-color;
+  }
+}
+
+.footer {
+  width: 100%;
+  background-color: $footer-bg-color;
+  color: $footer-text-color;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 132px;
+}
+
+.body-items {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 20px;
+}
+
+.left-boxes,
+.right-boxes {
+  display: flex;
+  flex-direction: column;
+}
+
+.textbox {
+  width: 150px;
+  height: 150px;
+  border-radius: 25px; /* Adjust the value to control the roundness of the corners */
+  border: 1px solid #ccc;
+  text-align: center;
+  background-color: $textbox-bg-color;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
