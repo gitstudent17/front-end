@@ -29,7 +29,7 @@
                 <br>buren helpen met ICT problemen
             </span>
         </span>
-        <img src="work.webp" alt="4">
+        <img src="work.webp" alt="4" width="750px" height="500px">
         <span class="right-boxes">
             <span class="textbox"><br> Non ICT gerelateerd<br><br></span>
             <span class="textbox"><br>Verkoopmedewerker bij de Dirk.<br>
