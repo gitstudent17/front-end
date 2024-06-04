@@ -30,7 +30,7 @@
             </span>
             <span class="textbox"></span>
         </span>
-        <img src="skills.png" alt="1" width="850px">
+        <img src="skills.png" alt="1" width="750px" height="500px">
         <span class="right-boxes">
             <span class="textbox"><br>Bvoegdheden</span>
             <span class="textbox">
