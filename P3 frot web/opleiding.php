@@ -34,7 +34,7 @@
                 2023 - heden<br>
             </span>
         </span>
-        <img src="art.webp" alt="2">
+        <img src="art.webp" alt="2" width="750px" height="500px">
         <span class="right-boxes">
             <span class="textbox"><br>extra's</span>
             <span class="textbox"><br>
